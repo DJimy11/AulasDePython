@@ -1,0 +1,8 @@
+nome = str(input('insira o nome completo: '))
+print(f'tudo maiusculo: {nome.upper()}')
+print(f'tudo minusculo: {nome.lower()}')
+dividido = nome.split()
+junto = ''.join(dividido)
+print(f'o nome {nome} tem tamanho: {len(junto)}')
+print(f'{dividido}')
+print(f'o primeiro nome: {dividido[0]} tem tamanho: {len(dividido[0])}')
